@@ -1,0 +1,99 @@
+.body {
+  background-color: black;   /* full background is black */
+  margin: 0;    
+  height: 1000px;             /* remove browser’s default margin */
+}
+
+.form-container {  
+  background: url('images/background-desktop.png');    /* form container is white */
+  width: 65%;                 /* take up 80% of screen width */
+  height: 80%;                /* take up 80% of screen height */
+  padding: 20px;              /* space inside the box */
+  border-radius: 10px;        /* rounded corners (optional) */
+  margin-top: 25px;
+  margin-left: 200px;
+  
+}
+.first{
+    color:azure
+}
+
+h2{
+    padding-top: 25px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+.image-container {
+  text-align: center; /* centers inline elements (like images) */
+}
+
+.p1{
+    text-align: center;
+}
+
+#info{
+    text-align: center;
+}
+
+.upload-box {
+  border: 2px dashed #00bfff; /* Dotted outline look */
+  border-radius: 12px;
+  width: 80%;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 40px;
+  text-align: center;
+  color: #aaa;
+  background-color: #111; /* Dark background */
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.upload-box span {
+  color: #00bfff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.upload-box.dragover {
+  background-color: #222; /* Slight highlight */
+  border-color: #1e90ff;
+  color: #fff;
+}
+
+.upload-box input {
+  display: none; /* Hide the file input */
+}
+
+.fullname {
+    background-color: rgba(29, 9, 75, 0);
+    color: white;
+    width: 95%;
+    height: 42px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: #aaa;
+
+}
+
+.fullname::placeholder{
+    text-align: center;
+}
+
+.ticket{
+    margin-top: 25px;
+    width: 95%;
+    height: 42px;
+    border: none;
+    border-radius: 8px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgb(223, 105, 63);
+}
+
+.error{
+  color: red;
+  font-size: 10px;
+}

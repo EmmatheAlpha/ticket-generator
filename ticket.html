@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conference Ticket Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style = 'height: 1000px'>
+  <div class="head-img">
+    <img src="images/logo-full.svg" >
+  </div>
+  <div class = 'con-message'>
+    <h1 class = 'congrats'> Congrats,</h1>
+    <h1 id = 'fullname' class = 'fullname'></h1>
+  </div>
+
+  
+<div class = 't-message'>
+    <h1 style=" color: white"> Your ticket is ready. </h1>
+  </div>
+
+  <p style="text-align: center;  color: white; font-size: 9px; word-spacing: 4px; letter-spacing: 1.5px; transform: scaleX(1.0); margin:0"> We've emailed your ticket to </p>
+  
+  
+  <div style="display: flex; gap: 5px;justify-content: center; margin-bottom: 0;"> 
+    <p id= "displayemail" style="color: rgb(219, 108, 71); margin:0px; font-size:14px;">  </p>
+    <p style="color: white; margin:0px; font-size: 14px; "> and will send updates in</p>
+  </div>
+  <p style="color: white; margin: 0px; font-size: 14px; text-align: center;"> the run up to the event</p>
+
+  
+
+  <div style="
+    position: relative; 
+    width: 500px; 
+    top: 20px;
+    left: 30%">
+  <!-- The photo -->
+  <img src="images/pattern-ticket.svg" style="width: 100%;">
+
+  <!-- The sticker text -->
+  <div style ='
+    display: flex;
+    flex-direction:row;'> 
+
+    <div style=" position: absolute; top: 8%; left: 20px;">
+      <div>
+        <img src ='images/logo-full.svg' >
+        <p style = '
+        color: aliceblue;
+        font-size: 10px;
+        color: rgb(139, 133, 133);
+        margin-left: 50px;'> December 25, 2025 / Asaba, Delta State</p>
+      </div>
+
+    <p id = 'ticketcode' style =' 
+        margin-left: 400px;
+        margin-top: 0px;
+        color: rgba(203, 198, 198, 0.226);
+        transform: rotate(90deg)'> </p>
+
+      <div style="display: flex; flex-direction: row; margin-top: 65px;">
+        <div><img id ='ticketimg'> </div>
+
+        <div style="display: flex; flex-direction: column; margin-left: 30px; margin: top:-20px">
+          <p id = 'ticketname' style="
+            font-size: 14px;
+            color: rgb(246, 228, 228);"> </p>
+          <p id ='ticketgit' style="
+            color: rgb(243, 230, 230);
+            font-size: 10px;
+            margin-top: 0px;
+            "></p></div></div>
+
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+<script src="ticket.js">
+  
+</script>
+</body>
+</html>

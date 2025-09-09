@@ -1,0 +1,29 @@
+body {
+ background-image: url('images/background-desktop.png');
+
+}
+
+.head-img{
+  text-align: center;
+  margin-top: 20px;
+ 
+}
+
+.con-message{
+  display: flex;
+  gap: 20px;  
+  margin: 0;
+}
+
+.congrats{
+  margin-left: 300px;
+  color: aliceblue;
+}
+
+.fullname{
+  color: rgb(232, 118, 62);
+}
+
+.t-message {
+  text-align: center ;
+}
