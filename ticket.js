@@ -1,5 +1,7 @@
 const params = new URLSearchParams(window.location.search);
-    const image = params.get("uploadedimage");
+    // We get the image data which was stored in the browser's storage using the key we stored it with
+    // We cannot get the image data like the others since image data cannot be gotten from search parameters
+    const image = localStorage.getItem("ticketImage");
     const name = params.get("name");
     const email = params.get("email");
     const github = params.get("github");
