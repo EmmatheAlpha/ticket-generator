@@ -27,6 +27,7 @@ fileinput.addEventListener("change", () => {
     const reader = new FileReader();
     reader.onload = function(e) {
       uploadedimage = e.target.result;
+      // Image data is stored in localStorage (browser storage) here
       localStorage.setItem("ticketImage", uploadedimage);
       preview.src = uploadedimage;
     };
